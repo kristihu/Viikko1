@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> tehtava7</h1>
+<script>
+  'use strict';
+  let saldo, korkop, koronmaara, uusisaldo;
+
+  saldo = prompt('Anna tilisi saldo');
+  korkop = prompt('anna korkoprosentti');
+
+  koronmaara = korkop/100 * saldo;
+  uusisaldo = +koronmaara + +saldo;
+
+  document.write('<p> Rahasi kasvoivat korkoa: '+koronmaara+' </p>')
+
+  document.write('<p> Uusi saldosi on:' +uusisaldo+' Euroa</p>')
+
+
+</script>
+</body>
+</html>
